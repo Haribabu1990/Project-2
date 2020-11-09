@@ -1,0 +1,214 @@
+ 
+ *{
+    margin:0;
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/*
+#container{
+background-color:rgb(255,255,255);
+height: 100vh;
+width:100%;
+
+}
+.nav{
+    height:100px;
+    display:flex;
+    justify-content: space-between;
+}
+.nav img{
+    height:70px;
+    margin: 20px;
+}
+.nav ul{
+display:flex; 
+ justify-content: flex-end; 
+}
+.nav ul li{
+    line-height:100px;
+    list-style:none;
+    
+}
+.nav ul li a{ 
+    color:black;
+    text-decoration:none;
+    font-size: 20px;
+    margin:10px;
+    padding:15px;
+}
+.nav ul li a:hover{ 
+    color: goldenrod;
+    font-size: 25px;
+}*/
+#container{
+    background-color:rgb(255,255,255);
+    height: 100vh;
+    width:100%;
+    
+    }
+/*----------Navigation Bars-----------*/
+.navbar-nav{
+    font-size: 20px;
+    margin-left: 3em;
+
+}
+.nav-item{
+margin-left:3em;
+}
+.main_body{
+    display:flex;
+    flex-direction: row;
+    
+}
+.contain{
+    margin:10px;
+    padding: 10px;
+    background-color: rgba(202, 224, 221, 0.945);
+}
+.contain h1{
+    font-size: 30px;
+    margin:16px;
+    color:rgb(92,93,95)
+}
+
+.contain p{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 15px 15px;
+    padding: 10px;
+    color:#5EOO1F;
+}
+@media(max-width: 850px){
+        #container{
+        height: 100vh;
+        width:100%;
+        }
+            
+        .main_body{
+            display:block;
+            padding:5px;
+            color:rgb(255,255,255);
+
+        }
+        .contain{
+            height:auto;
+            width:100%;
+            background-color:rgb(255,255,255);
+        }
+        .contain h1{
+            font-size: 20px;
+            width:100%;
+            color:rgb(66,66,66)
+        }
+        .contain p{
+            font-size: 16px;
+            width:100%;
+            color:rgb(61,185,173);
+        }
+        .anim lottie-player{
+            width:100%;
+            height:auto;
+        }
+    }
+/*------------ Css for About Page-----------------*/
+body{
+    background-color:rgb(255,255,255);
+}
+.container1{
+    text-align:center;
+    margin:20px;
+    padding:10px;
+    color:#5EOO1F;
+   /* background-color: snow;*/
+   background-color: rgba(202, 224, 221, 0.945);
+ 
+}
+ .Mission{
+     text-align:center;
+     color:#5EOO1F;
+ }
+ .Mission h1{
+     font-size:30px;
+     margin: 10px;
+     color:#5EOO1F;
+ }
+ .vision{
+    text-align: center;
+    margin:20px;
+    color:#5EOO1F;
+
+ }
+ .vision h3{
+     margin:10px;
+     font-size:25px;
+ }
+ .para h4{
+     text-align: center;
+     margin:15px;
+    /* color:rgba(11, 179, 148, 0.918);
+*/
+color:#5EOO1F; 
+
+}
+ .para p{
+     font-size:1em;
+     text-align: center;
+     color:#5EOO1F; 
+     /*color:rgba(11, 179, 148, 0.918);*/
+ }
+ footer{
+    font-size: 30px;
+    text-align:center;
+    margin:20px;
+    padding:10px;
+}
+  
+  @media (max-width: 850px) {
+      #container{
+          margin:3px;
+          padding:5px;
+          width:100%;
+          height:auto;
+        font-size: medium;
+      }
+      .container1{
+        text-align:center;
+        background-color:rgb(255,255,255);
+           
+    }
+      h1{
+          font-size:20;
+          color:rgb(102,103,104);
+      }
+      p{
+        color:rgb(61,185,173);
+      }
+    .para {
+    flex-direction: block;
+    padding:10px;
+    margin:5px;
+    color:rgb(102,103,104);
+
+    }
+    .para h4{
+    margin: 5px;
+    padding:5px;
+    font-size: 20px;
+    color:rgb(102,103,104);
+    }
+    .para p{
+    margin:5px;
+    padding: 5px;
+    font-size:16px;
+    color:rgb(61,185,173);
+    }
+    footer{
+        text-align:center;
+        margin:5px;
+        padding:5px;
+        height: 100px;
+        
+    }
+    }
+
+/*---------------Student Hall Css ------------*/
